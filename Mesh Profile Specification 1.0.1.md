@@ -1,7 +1,7 @@
 # Mesh 概述规范 1.0.1
 
 ## 缩略语
-        |ACK| Acknowledgment|确认|
+|ACK| Acknowledgment|确认|
 	|AD | Advertising Data|广播数据|
 	|AES| Advanced Encryption Standard|先进的加密标准|
 	|AID| Application Key Identifier|应用程序密钥标识符|
@@ -53,21 +53,20 @@
 	|WG| Working Group|工作组|
 	
 ## 分层结构
-Mesh概述规范V1.0.1一共定义了七层网络结构，包括Model Layer(网络模型层)，Foundation Model Layer(基础模型层)，Acces Layer(接入层)，<br>
+Mesh概述规范V1.0.1一共定义了七层网络结构，包括Model Layer(网络模型层)，Foundation Model Layer(基础模型层)，Acces Layer(接入层)，
 Upper transport Layer(上层传输层)，Upper transport Layer(下层传输层)，Network Layer(网络层)，Bearer Layer(承载层)
 ### Model Layer(网络模型层)
 用于标准化典型用户场景的操作，比如照明和传感器模型
 ### Foundation Model Layer(基础模型层)
 配置和管理Mesh网络的状态，消息和模型
 ### Acces Layer(接入层)
-接入层定义更高层应用程序如何调用上层传输层，定义了应用层数据的格式，定义和控制应用程序数据在上层传输层中的加解密。并检查从上下文接收到应用程序数据的密匙是否正确，<br>
-如果正确，则将应用程序数据转发到更高层
+接入层定义更高层应用程序如何调用上层传输层，定义了应用层数据的格式，定义和控制应用程序数据在上层传输层中的加解密。并检查从上下文接收到应用程序数据的密匙是否正确，如果正确，则将应用程序数据转发到更高层
 ### Upper transport Layer(上层传输层)
 对应用层数据进行加密，解密和身份验证，旨在提供访问消息的安全性。还定义了如何使用传输控制消息来管理节点之前的上层传输层，包括何时由朋友功能使用
 ### Upper transport Layer(下层传输层)
 定义了如何将上层传输层消息分段并重组为多个下层传输PDU，以将大型上层传输层消息传递给其他节点。 还定义了一个控制消息来管理分段和重组。
 ### Network Layer(网络层)
-定义了如何针对一个或多个元素寻址传输消息。 它定义了允许承载层传输传输PDU的网络消息格式。<br>
+定义了如何针对一个或多个元素寻址传输消息。 它定义了允许承载层传输传输PDU的网络消息格式。
 网络层决定是中继/转发消息，接受消息以进行进一步处理还是拒绝消息。 它还定义了如何加密和认证网络消息。
 ### Bearer Layer(承载层)
 定义了数据是如何在节点之间传输，有两个承载定义，广播承载和GATT承载，或许还会添加更多承载在将来。
