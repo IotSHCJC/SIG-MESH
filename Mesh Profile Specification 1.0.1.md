@@ -1,7 +1,7 @@
 # Mesh 概述规范 1.0.1
 
 ## 缩略语
-|ACK| Acknowledgment|确认|
+        |ACK| Acknowledgment|确认|
 	|AD | Advertising Data|广播数据|
 	|AES| Advanced Encryption Standard|先进的加密标准|
 	|AID| Application Key Identifier|应用程序密钥标识符|
