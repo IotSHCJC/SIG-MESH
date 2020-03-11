@@ -1,7 +1,7 @@
 # Mesh 概述规范 1.0.1
 
 ## 缩略语
-        |ACK| Acknowledgment|确认|
+   |ACK| Acknowledgment|确认|
 	|AD | Advertising Data|广播数据|
 	|AES| Advanced Encryption Standard|先进的加密标准|
 	|AID| Application Key Identifier|应用程序密钥标识符|
@@ -53,8 +53,15 @@
 	|WG| Working Group|工作组|
 	
 ## 分层结构
-Mesh概述规范V1.0.1一共定义了七层网络结构，包括:<br>* Model Layer(网络模型层)* Foundation Model Layer(基础模型层)* Acces Layer(接入层)* 
-Upper transport Layer(上层传输层)* Upper transport Layer(下层传输层)* Network Layer(网络层)* Bearer Layer(承载层)
+Mesh概述规范V1.0.1一共定义了七层网络结构，包括:<br>
+* Model Layer(网络模型层)
+* Foundation Model Layer(基础模型层)
+* Acces Layer(接入层)
+* Upper transport Layer(上层传输层)
+* Upper transport Layer(下层传输层)
+* Network Layer(网络层)
+* Bearer Layer(承载层)
+
 ### Model Layer(网络模型层)
 用于标准化典型用户场景的操作，比如照明和传感器模型
 ### Foundation Model Layer(基础模型层)
