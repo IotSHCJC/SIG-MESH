@@ -1,5 +1,5 @@
 # Mesh 概述规范 1.0.1
-[SIG Mesh官方链接](Prohttps://www.bluetooth.com/specifications/mesh-specifications/)
+[SIG Mesh官方链接](https://www.bluetooth.com/specifications/mesh-specifications/)
 ## 1.缩略语
         |ACK| Acknowledgment|确认|
 	|AD | Advertising Data|广播数据|
